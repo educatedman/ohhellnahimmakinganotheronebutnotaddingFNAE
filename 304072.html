@@ -427,15 +427,13 @@
       <button class="motd-close" aria-label="Close MOTD">&times;</button>
       <h2 id="motd-title">Message of the Day</h2>
       <p><a href="" target="_blank">Submit a game</a></p>
-      <p>hello guys this is arnav here</p>
-      <img src="images/arnav.jpeg" alt="MOTD Image" class="motd-image">
+      <p>hello guys chris screwed up aaaaagain i have proxy  built and ready but me no give to him bc he no gonna learn if i keep giving so im not giving and waiting for his buns one and then i might think abt it also YUSEF IS THE CHILL KING,MAURICIO IS NOT CHILL HE THINK HE TUFF BUT HE NOT,AND U NEED TO FIND YUSUF HIDING IN HIS CORNER ALSO SORRY GUYS CURVEBALL IS FOREVER LOST IN THE VOID  </p>
+ 
     </div>
   </div>
 
   <script>
-    /* ============================================================
-       GAMES LIST
-    ============================================================ */
+
     const games = [
       {name:"Bob the Robber 2",    href:"games/bob-the-robber-2/",         img:"images/bob-the-robber-2.png",                    cat:"action"},
       {name:"Vex 7",               href:"games/vex7/",                      img:"images/vex7.jpeg",                               cat:"action"},
@@ -556,16 +554,13 @@
       {name:"Dalgona Cookie",      href:"/cookie",                           img:"/cookie/icon.png",                               cat:"puzzle"},
       {name:"Bit Planes",          href:"/bit-planes",                       img:"/bit-planes/icon.webp",                          cat:"action"},
       {name:"Football Bros",       href:"/football-bros",                    img:"/football-bros/icon.webp",                       cat:"sports"},
-      {name:"Highway Traffic",     href:"/tank",                             img:"/tank/icon.webp",                                cat:"racing"},
-      {name:"Bumper Cars Soccer",  href:"/cars",                             img:"/cars/icon.png",                                 cat:"sports"},
-      {name:"Curve Ball 3D",       href:"/curve",                            img:"/curve/icon.jpg",                                cat:"sports"},
-      {name:"Tiny Fishing",        href:"/games/tiny-fishing",               img:"/games/tiny-fishing/iconTF.png",                 cat:"idle"},
+      {name:"Highway Traffic",     href:"games/tank",                             img:"/tank/icon.webp",                                cat:"racing"},
+      {name:"Bumper Cars Soccer",  href:"/games/cars",                             img:"/cars/icon.png",                                 cat:"sports"},
+      {name:"Curve Ball 3D",       href:"/games/curve",                            img:"/images/curve/icon.jpg",                                cat:"sports"},
+      {name:"Tiny Fishing",        href:"/games/tiny-fishing",               img:"/tiny-fishing/iconTF.png",                 cat:"idle"},
     ];
 
-    /* ============================================================
-       DAILY STREAK — persisted with sessionStorage (no localStorage needed)
-       Uses the calendar date so it increments once per day max.
-    ============================================================ */
+
     (function initStreak() {
       const STREAK_KEY = 'dm_streak';
       const LAST_KEY   = 'dm_last_visit';
